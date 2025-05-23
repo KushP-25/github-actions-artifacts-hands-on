@@ -19,6 +19,8 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
+    - name: text hey, Kush
+      run: echo "hey, Kush" >> hello.txt
 
   download:
     needs: build
